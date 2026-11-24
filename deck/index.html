@@ -1,0 +1,713 @@
+
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sartori AI — Reverse Intelligence | Pre-Seed Overview</title>
+<meta name="description" content="Sartori AI reads returns data backwards — from the return event to the root cause to the fix that works. Pre-seed investor overview.">
+<meta name="robots" content="noindex,nofollow">
+<meta property="og:title" content="Sartori AI — Reverse Intelligence">
+<meta property="og:description" content="Returns are an information problem. Pre-seed investor overview.">
+<meta property="og:type" content="website">
+<style>
+@page{size:960px 540px;margin:0}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#06060c}
+.slide{width:960px;height:540px;position:relative;overflow:hidden;background:#07070e;color:#fff;
+ font-family:'Inter','DejaVu Sans',sans-serif;padding:28px 44px 78px 44px;page-break-after:always;display:flex;flex-direction:column}
+.slide:last-child{page-break-after:auto}
+.bg{position:absolute;inset:0;z-index:0;background-image:url('assets/slidebg.png');background-size:100% 100%}
+.slide>*:not(.bg){position:relative;z-index:1}
+.foot{position:absolute!important;left:44px;right:44px;bottom:21px}
+.eyebrow{display:flex;align-items:center;gap:10px;font-family:'Anonymous Pro','DejaVu Sans Mono',monospace;
+ font-size:15px;letter-spacing:.19em;text-transform:uppercase;color:#9b9bb6;margin-bottom:12px}
+.dot{width:10px;height:10px;border-radius:50%;background:linear-gradient(135deg,#fbbf24,#f472b6);flex:none}
+h1{font-family:'Poppins','Montserrat',sans-serif;font-weight:700;font-size:34px;line-height:1.13;letter-spacing:-.018em;margin-bottom:16px}
+h1.sm{font-size:30px}
+.c1{color:#22d3ee}.c2{color:#4ade80}.c3{color:#fbbf24}.c4{color:#f472b6}.c5{color:#a855f7}.cg{color:#8e8ea8}
+.body{flex:1;display:flex;flex-direction:column;justify-content:center;gap:12px}
+.row{display:flex;gap:12px}
+.card{background:linear-gradient(160deg,rgba(255,255,255,.06),rgba(255,255,255,.02));
+ border:1px solid rgba(255,255,255,.10);border-radius:14px;padding:15px 17px}
+.lab{font-family:'Anonymous Pro','DejaVu Sans Mono',monospace;font-size:15px;letter-spacing:.15em;
+ text-transform:uppercase;color:#a6a6c0;margin-bottom:9px;display:flex;align-items:center;gap:8px}
+.pip{width:8px;height:8px;border-radius:50%;flex:none}
+p{font-size:16px;line-height:1.42;color:#cfcfdf}
+b{color:#fff;font-weight:600}
+.big{font-family:'Poppins',sans-serif;font-weight:700;font-size:40px;line-height:1}
+.mid{font-family:'Poppins',sans-serif;font-weight:700;font-size:29px;line-height:1}
+.ttl{font-family:'Poppins',sans-serif;font-weight:600;font-size:18px;margin-bottom:6px;color:#fff}
+.rule{height:3px;border-radius:3px;margin-bottom:10px;background:linear-gradient(90deg,#22d3ee,#4ade80,#fbbf24,#f472b6,#a855f7)}
+.take{font-family:'Poppins',sans-serif;font-weight:600;font-size:19px;text-align:center}
+.note{font-size:15px;color:#9898b0;line-height:1.35}
+.arrow{align-self:center;color:#6d6d8c;font-size:21px;flex:none}
+.num{font-family:'Anonymous Pro',monospace;font-size:15px;letter-spacing:.15em;color:#7d7d9c;margin-bottom:5px}
+.trk{height:17px;border-radius:5px;background:rgba(255,255,255,.07);overflow:hidden}
+.fil{height:100%;border-radius:5px}
+.chip{font-family:'Anonymous Pro',monospace;font-size:15px;letter-spacing:.1em;text-transform:uppercase;
+ padding:5px 11px;border-radius:999px;border:1px solid rgba(255,255,255,.18);color:#d4d4e4}
+svg{display:block}
+</style>
+<style>
+html,body{background:#05050a;margin:0;padding:0;font-family:'Inter','DejaVu Sans',sans-serif;
+ -webkit-font-smoothing:antialiased}
+.slide{page-break-after:auto!important;display:none!important;position:absolute;top:0;left:0;
+ border-radius:10px;box-shadow:0 24px 70px rgba(0,0,0,.6)}
+.slide.on{display:flex!important}
+#bar{position:fixed;top:0;left:0;right:0;height:52px;display:flex;align-items:center;gap:14px;
+ padding:0 18px;background:rgba(7,7,14,.92);border-bottom:1px solid rgba(255,255,255,.09);z-index:50}
+#bar .nm{font-weight:700;font-size:15px;color:#fff;letter-spacing:-.01em}
+#bar .sub{font-size:13px;color:#8e8ea8}
+.sp{flex:1}
+.btn{font-size:13px;font-weight:600;color:#fff;text-decoration:none;padding:8px 14px;border-radius:8px;
+ border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);white-space:nowrap}
+.btn:hover{background:rgba(255,255,255,.13)}
+.btn.pri{border-color:transparent;background:linear-gradient(135deg,#a855f7,#22d3ee);color:#07070e}
+#stage{position:absolute;top:52px;left:0;right:0;bottom:60px;overflow:hidden}
+#deck{position:absolute;left:50%;top:50%;width:960px;height:540px;transform-origin:center center}
+#nav{position:fixed;bottom:0;left:0;right:0;height:60px;display:flex;align-items:center;justify-content:center;
+ gap:16px;background:rgba(7,7,14,.92);border-top:1px solid rgba(255,255,255,.09);z-index:50}
+.nb{width:34px;height:34px;border-radius:8px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);
+ color:#fff;font-size:17px;cursor:pointer;line-height:1}
+.nb:disabled{opacity:.3;cursor:default}
+#cnt{font-family:'Anonymous Pro',monospace;font-size:14px;letter-spacing:.14em;color:#b4b4cc;min-width:76px;text-align:center}
+#dots{display:flex;gap:5px;flex-wrap:wrap;max-width:46vw;justify-content:center}
+.dt{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.22);cursor:pointer;border:0;padding:0}
+.dt.on{background:linear-gradient(135deg,#fbbf24,#f472b6)}
+@media (max-width:760px){#bar .sub{display:none}#dots{display:none}}
+</style></head><body>
+<div id="bar">
+  <span class="nm">Sartori AI</span><span class="sub">Reverse Intelligence &middot; Pre-seed overview</span>
+  <span class="sp"></span>
+  <a class="btn" href="mailto:r.michael@sartori.ai">Contact</a>
+  <a class="btn pri" href="Sartori-AI-Pre-Seed-Deck.pdf" download>Download PDF</a>
+</div>
+<div id="stage"><div id="deck">
+
+
+<!-- 1 COVER -->
+<div class="slide" style="padding:0;background:#000">
+ <div style="position:absolute;inset:0;background-image:url('assets/cover_final.jpg');background-size:100% 100%"></div>
+ <div style="position:absolute;left:54px;top:0;bottom:0;width:500px;display:flex;flex-direction:column;justify-content:center">
+  <div class="eyebrow" style="margin-bottom:16px"><span class="dot"></span>Pre&#8209;seed overview &middot; Nov 2026</div>
+  <div style="font-family:'Poppins',sans-serif;font-weight:700;font-size:44px;line-height:1.08;letter-spacing:-.02em">
+   Returns are an <span class="c1">information</span> problem.</div>
+  <p style="font-size:19px;margin-top:16px;color:#dcdcea;line-height:1.45">
+   Reading the chain backwards &mdash; from the return event to the root cause to the fix that works.</p>
+  <div style="height:3px;width:210px;border-radius:3px;margin:20px 0 16px;background:linear-gradient(90deg,#22d3ee,#4ade80,#fbbf24,#f472b6,#a855f7)"></div>
+  <p style="font-size:16px;color:#b6b6cc">R. Michael Merritt &middot; Founder &middot; r.michael@sartori.ai</p>
+ </div>
+</div>
+
+<!-- 2 PROBLEM -->
+<div class="slide"><div class="bg"></div>
+ <div class="eyebrow"><span class="dot"></span>01 &middot; The problem</div>
+ <h1>Nearly <span class="c4">one in five</span> online orders comes back.</h1>
+ <div class="body">
+  <div class="row">
+   <div class="card" style="flex:1.5">
+    <div class="lab"><span class="pip" style="background:#f472b6"></span>20 online apparel orders</div>
+    <div style="display:flex;flex-wrap:wrap;gap:7px;max-width:430px">
+     <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#4b4b63" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#4b4b63" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#4b4b63" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#4b4b63" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#4b4b63" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#4b4b63" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#4b4b63" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#4b4b63" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#4b4b63" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#4b4b63" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#4b4b63" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#4b4b63" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#4b4b63" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#4b4b63" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#4b4b63" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#4b4b63" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#f472b6" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#f472b6" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#f472b6" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#f472b6" stroke-width="1.7" stroke-linejoin="round"><path d="M8.5 2.5 L4 4.5 L2.2 8.4 L5 9.6 L5 21.5 L19 21.5 L19 9.6 L21.8 8.4 L20 4.5 L15.5 2.5 C15.5 4.6 8.5 4.6 8.5 2.5 Z"/></svg>
+    </div>
+    <p style="margin-top:11px"><b class="c4">4 returned</b> &nbsp;&middot;&nbsp; <span class="cg">16 kept</span></p>
+   </div>
+   <div style="flex:1;display:flex;flex-direction:column;gap:12px">
+    <div class="card" style="padding:13px 17px"><div class="lab" style="margin-bottom:6px"><span class="pip" style="background:#fbbf24"></span>U.S. returns, 2025</div><div class="mid c3">$849.9B</div></div>
+    <div class="card" style="padding:13px 17px"><div class="lab" style="margin-bottom:6px"><span class="pip" style="background:#22d3ee"></span>Online return rate</div><div class="mid c1">19.3%</div></div>
+    <div class="card" style="padding:13px 17px"><div class="lab" style="margin-bottom:6px"><span class="pip" style="background:#4ade80"></span>Merchants fixing it now</div><div class="mid c2">64%</div></div>
+   </div>
+  </div>
+  <div class="card" style="padding:13px 17px">
+   <div class="row" style="align-items:center;gap:14px">
+    <p style="flex:1.7"><b>Who owns it:</b> the <b class="c1">VP of E&#8209;commerce</b> carries the P&amp;L hit and the budget. Merchandising owns the decisions behind it. <b>Neither owns the diagnosis.</b></p>
+    <p class="note" style="flex:.9">NRF &times; Happy Returns, <i>2025 Retail Returns Landscape</i>, Oct 2025.</p>
+   </div>
+  </div>
+ </div>
+ <div class="foot"><div class="rule"></div><div class="take">Returns aren&rsquo;t a logistics problem. <span class="c1">They&rsquo;re an information problem.</span></div></div>
+</div>
+
+<!-- 3 WHY UNSOLVED -->
+<div class="slide"><div class="bg"></div>
+ <div class="eyebrow"><span class="dot"></span>02 &middot; Why it is still unsolved</div>
+ <h1>Fit tech promised <span class="c2">30&ndash;40%</span>. It delivered <span class="c4">2&ndash;8%</span>.</h1>
+ <div class="body">
+  <div class="card">
+   <div style="display:flex;align-items:center;gap:14px;margin-bottom:12px">
+    <p style="width:150px;flex:none"><b class="c2">Promised</b></p>
+    <div class="trk" style="flex:1"><div class="fil" style="width:40%;background:linear-gradient(90deg,#4ade80,#22d3ee)"></div></div>
+    <p style="width:92px;flex:none;text-align:right"><b class="c2">30&ndash;40%</b></p></div>
+   <div style="display:flex;align-items:center;gap:14px">
+    <p style="width:150px;flex:none"><b class="c4">Delivered</b></p>
+    <div class="trk" style="flex:1"><div class="fil" style="width:8%;background:#f472b6"></div></div>
+    <p style="width:92px;flex:none;text-align:right"><b class="c4">2&ndash;8%</b></p></div>
+   <p class="note" style="margin-top:11px">Return&#8209;rate reduction claimed by virtual&#8209;fit and size&#8209;recommendation vendors vs. reduction retailers measured post&#8209;deployment.</p>
+  </div>
+  <div class="row">
+   <div class="card" style="flex:1;padding:13px 16px"><div class="lab" style="margin-bottom:6px"><span class="pip" style="background:#f472b6"></span>True Fit &middot; 3DLOOK</div>
+    <p><b>Predicts size</b> before the sale. Learns from clicks.</p></div>
+   <div class="card" style="flex:1;padding:13px 16px"><div class="lab" style="margin-bottom:6px"><span class="pip" style="background:#fbbf24"></span>Narvar &middot; Loop</div>
+    <p><b>Moves the box</b> after the sale. Never asks why.</p></div>
+   <div class="card" style="flex:1;padding:13px 16px"><div class="lab" style="margin-bottom:6px"><span class="pip" style="background:#22d3ee"></span>Returnalyze</div>
+    <p><b>Reports the rate.</b> Stops before the cause.</p></div>
+  </div>
+  <div class="card" style="padding:12px 17px"><p>All three learn from <b>engagement data</b> captured before the sale. The signal that explains a return only exists <b>after</b> it.</p></div>
+ </div>
+ <div class="foot"><div class="rule"></div><div class="take">Pre&#8209;purchase behavior predicts intent. <span class="c1">Only outcome data explains returns.</span></div></div>
+</div>
+
+<!-- 4 SOLUTION -->
+<div class="slide"><div class="bg"></div>
+ <div class="eyebrow"><span class="dot"></span>03 &middot; The solution</div>
+ <h1><span class="c5">Reverse Intelligence</span> &mdash; we start where others stop.</h1>
+ <div class="body">
+  <div class="row" style="align-items:stretch">
+   <div class="card" style="flex:1;border-color:rgba(168,85,247,.45)"><div class="lab" style="margin-bottom:7px"><span class="pip" style="background:#a855f7"></span>Event</div>
+    <div class="ttl c5">What came back</div><p>SKU, size, channel, stated reason.</p></div>
+   <div class="arrow">&rarr;</div>
+   <div class="card" style="flex:1;border-color:rgba(34,211,238,.45)"><div class="lab" style="margin-bottom:7px"><span class="pip" style="background:#22d3ee"></span>Cause</div>
+    <div class="ttl c1">Why it came back</div><p>Fit, expectation, or quality &mdash; traced to one decision.</p></div>
+   <div class="arrow">&rarr;</div>
+   <div class="card" style="flex:1;border-color:rgba(74,222,128,.45)"><div class="lab" style="margin-bottom:7px"><span class="pip" style="background:#4ade80"></span>Fix</div>
+    <div class="ttl c2">What to change</div><p>Size curve, PDP copy, QA gate &mdash; named and priced.</p></div>
+   <div class="arrow">&rarr;</div>
+   <div class="card" style="flex:1;border-color:rgba(251,191,36,.45)"><div class="lab" style="margin-bottom:7px"><span class="pip" style="background:#fbbf24"></span>Outcome</div>
+    <div class="ttl c3">Did it work</div><p>Return rate and margin, re&#8209;measured.</p></div>
+  </div>
+  <div class="card" style="padding:12px 17px">
+   <div class="row" style="align-items:center;gap:13px">
+    <p style="flex:none;font-size:21px" class="c3">&#8634;</p>
+    <p style="flex:1">The outcome feeds back into the model. <b>Every closed loop becomes training data</b> &mdash; which is why step four is the one that compounds.</p>
+   </div>
+  </div>
+ </div>
+ <div class="foot"><div class="rule"></div><div class="take">Four steps. <span class="c5">Only the fourth one compounds.</span></div></div>
+</div>
+
+<!-- 5 WORKED EXAMPLE -->
+<div class="slide"><div class="bg"></div>
+ <div class="eyebrow"><span class="dot"></span>04 &middot; What the AI actually does</div>
+ <h1>One SKU, traced <span class="c1">end to end</span>.</h1>
+ <div class="body">
+  <div class="row">
+   <div class="card" style="flex:1"><div class="lab" style="margin-bottom:7px"><span class="pip" style="background:#a855f7"></span>Event</div>
+    <p><b>Style 4471</b><br>Ponte Blazer<br>&ldquo;Too small&rdquo; on 64% of returns</p></div>
+   <div class="card" style="flex:1"><div class="lab" style="margin-bottom:7px"><span class="pip" style="background:#22d3ee"></span>Cause</div>
+    <p>Graded from a 2019 block. Sizes 8&ndash;12 run <b>1.5cm narrow</b> at the shoulder.</p></div>
+   <div class="card" style="flex:1"><div class="lab" style="margin-bottom:7px"><span class="pip" style="background:#4ade80"></span>Fix</div>
+    <p>Re&#8209;grade 8&ndash;12. Update PDP. Flag <b>3 sibling styles</b> on the block.</p></div>
+   <div class="card" style="flex:1.1;border-color:rgba(251,191,36,.45)"><div class="lab" style="margin-bottom:7px"><span class="pip" style="background:#fbbf24"></span>Outcome</div>
+    <div style="display:flex;align-items:flex-end;gap:11px;height:78px;margin-bottom:4px">
+     <div style="text-align:center"><div style="width:38px;height:50px;background:#f472b6;border-radius:4px"></div><p class="note" style="margin-top:4px">31%</p></div>
+     <p style="flex:none;color:#7d7d9c;padding-bottom:22px">&rarr;</p>
+     <div style="text-align:center"><div style="width:38px;height:31px;background:#4ade80;border-radius:4px"></div><p class="note" style="margin-top:4px">19%</p></div>
+     <p style="flex:1;padding-bottom:4px"><b class="c3">$117K</b><br><span class="note">recovered</span></p>
+    </div></div>
+  </div>
+  <div class="card" style="padding:12px 17px"><p>No incumbent produces line three. <b>Dashboards stop at the rate</b> &mdash; the fix, its scope and its dollar value are what a merchandising team can act on.</p></div>
+ </div>
+ <div class="foot"><div class="rule"></div><div class="take">Cause, fix and dollar value &mdash; <span class="c3">on one SKU, in one report.</span></div></div>
+</div>
+
+<!-- 6 THE DELIVERABLE -->
+<div class="slide"><div class="bg"></div>
+ <div class="eyebrow"><span class="dot"></span>05 &middot; What the customer receives</div>
+ <h1>The Reverse Intelligence Snapshot.</h1>
+ <div class="body">
+  <div class="row">
+   <div class="card" style="flex:1.45;padding:14px 16px">
+    <div class="lab" style="margin-bottom:9px"><span class="pip" style="background:#f472b6"></span>Return causes ranked by margin at risk</div>
+    <div style="display:flex;align-items:center;gap:11px;margin-bottom:8px"><p style="width:160px;flex:none">Size&#8209;curve drift</p>
+     <div class="trk" style="flex:1;height:15px"><div class="fil" style="width:88%;background:#f472b6"></div></div><p style="width:62px;flex:none;text-align:right"><b>$390K</b></p></div>
+    <div style="display:flex;align-items:center;gap:11px;margin-bottom:8px"><p style="width:160px;flex:none">PDP expectation gap</p>
+     <div class="trk" style="flex:1;height:15px"><div class="fil" style="width:54%;background:#a855f7"></div></div><p style="width:62px;flex:none;text-align:right"><b>$240K</b></p></div>
+    <div style="display:flex;align-items:center;gap:11px;margin-bottom:8px"><p style="width:160px;flex:none">Fabric hand / QA</p>
+     <div class="trk" style="flex:1;height:15px"><div class="fil" style="width:33%;background:#22d3ee"></div></div><p style="width:62px;flex:none;text-align:right"><b>$145K</b></p></div>
+    <div style="display:flex;align-items:center;gap:11px"><p style="width:160px;flex:none">Color / photo mismatch</p>
+     <div class="trk" style="flex:1;height:15px"><div class="fil" style="width:19%;background:#4ade80"></div></div><p style="width:62px;flex:none;text-align:right"><b>$84K</b></p></div>
+   </div>
+   <div style="flex:1;display:flex;flex-direction:column;gap:12px">
+    <div class="card" style="padding:13px 16px"><div class="lab" style="margin-bottom:6px"><span class="pip" style="background:#fbbf24"></span>Executive report</div><p>Board&#8209;ready. Causes ranked, each priced.</p></div>
+    <div class="card" style="padding:13px 16px"><div class="lab" style="margin-bottom:6px"><span class="pip" style="background:#22d3ee"></span>Metrics snapshot</div><p>Rate, drivers, SKU concentration.</p></div>
+    <div class="card" style="padding:13px 16px"><div class="lab" style="margin-bottom:6px"><span class="pip" style="background:#4ade80"></span>ROI roadmap</div><p>Which fix, what order, what value.</p></div>
+   </div>
+  </div>
+  <div class="card" style="padding:12px 17px"><p>Three artifacts, not a login. <b>The CFO reads the same page as the merchandiser</b> &mdash; which is how a diagnostic turns into a budget line.</p></div>
+ </div>
+ <div class="foot"><div class="rule"></div><div class="take">Not another dashboard to learn. <span class="c3">Three board&#8209;ready artifacts.</span></div></div>
+</div>
+<!-- 7 JOURNEY -->
+<div class="slide"><div class="bg"></div>
+ <div class="eyebrow"><span class="dot"></span>06 &middot; Diagnostic to subscription</div>
+ <h1>One CSV in. <span class="c2">A platform contract out.</span></h1>
+ <div class="body">
+  <div class="row" style="align-items:stretch">
+   <div class="card" style="flex:1;border-color:rgba(34,211,238,.4)"><div class="num">Cycle 0 &middot; free</div>
+    <div class="ttl c1">Diagnostic</div><p>One CSV, no integration. Snapshot in <b>3 weeks</b>.</p>
+    <p class="note" style="margin-top:7px">Trigger to advance: causes priced above $250K.</p></div>
+   <div class="arrow">&rarr;</div>
+   <div class="card" style="flex:1;border-color:rgba(74,222,128,.4)"><div class="num">Cycles 1&ndash;2 &middot; $60K</div>
+    <div class="ttl c2">Snapshot</div><p>Two diagnostics a year. One category.</p>
+    <p class="note" style="margin-top:7px">Trigger: measured drop on fixes shipped.</p></div>
+   <div class="arrow">&rarr;</div>
+   <div class="card" style="flex:1;border-color:rgba(251,191,36,.4)"><div class="num">Cycles 3&ndash;4 &middot; $150K</div>
+    <div class="ttl c3">Core</div><p>Quarterly cadence. All categories, SKU&#8209;level.</p>
+    <p class="note" style="margin-top:7px">Trigger: merch team wants it in&#8209;workflow.</p></div>
+   <div class="arrow">&rarr;</div>
+   <div class="card" style="flex:1;border-color:rgba(168,85,247,.4)"><div class="num">Cycle 5+ &middot; $280K</div>
+    <div class="ttl c5">Enterprise</div><p>Continuous. API into buying and PDP systems.</p>
+    <p class="note" style="margin-top:7px">Expansion, not renewal.</p></div>
+  </div>
+  <div class="card" style="padding:12px 17px">
+   <div class="row" style="align-items:center;gap:14px">
+    <p style="flex:1.6"><b>Land in one quarter, expand over four.</b> The free diagnostic is the only unpaid step &mdash; every cycle after it carries a contract and a measured result.</p>
+    <p style="flex:.8"><b class="c2">~2 cycles</b><br><span class="note">median Snapshot &rarr; Core</span></p>
+   </div>
+  </div>
+ </div>
+ <div class="foot"><div class="rule"></div><div class="take">Zero engineering lift to start. <span class="c2">That is the pilot unlock.</span></div></div>
+</div>
+
+<!-- 8 VALIDATION -->
+<div class="slide"><div class="bg"></div>
+ <div class="eyebrow"><span class="dot"></span>07 &middot; Customer discovery</div>
+ <h1>20 interviews. <span class="c2">Every threshold cleared.</span></h1>
+ <div class="body">
+  <div class="card">
+   <div class="lab" style="margin-bottom:11px"><span class="pip" style="background:#f472b6"></span>Rated high or very high &mdash; n=20 &middot; 13 buyers, 7 operators</div>
+   <div style="display:flex;flex-direction:column;gap:10px">
+    <div style="display:flex;align-items:center;gap:13px"><p style="width:268px;flex:none">Problem severity</p>
+     <div class="trk" style="flex:1"><div class="fil" style="width:98%;background:linear-gradient(90deg,#f472b6,#a855f7)"></div></div><p style="width:50px;flex:none;text-align:right"><b>98%</b></p></div>
+    <div style="display:flex;align-items:center;gap:13px"><p style="width:268px;flex:none">Financial impact</p>
+     <div class="trk" style="flex:1"><div class="fil" style="width:93%;background:linear-gradient(90deg,#fbbf24,#f472b6)"></div></div><p style="width:50px;flex:none;text-align:right"><b>93%</b></p></div>
+    <div style="display:flex;align-items:center;gap:13px"><p style="width:268px;flex:none">Data availability</p>
+     <div class="trk" style="flex:1"><div class="fil" style="width:88%;background:linear-gradient(90deg,#4ade80,#fbbf24)"></div></div><p style="width:50px;flex:none;text-align:right"><b>88%</b></p></div>
+    <div style="display:flex;align-items:center;gap:13px"><p style="width:268px;flex:none">Pilot interest</p>
+     <div class="trk" style="flex:1"><div class="fil" style="width:70%;background:linear-gradient(90deg,#22d3ee,#4ade80)"></div></div><p style="width:50px;flex:none;text-align:right"><b>70%</b></p></div>
+    <div style="display:flex;align-items:center;gap:13px"><p style="width:268px;flex:none">Satisfied with today&rsquo;s tools</p>
+     <div class="trk" style="flex:1"><div class="fil" style="width:15%;background:#5b5b78"></div></div><p style="width:50px;flex:none;text-align:right"><b>15%</b></p></div>
+   </div>
+  </div>
+  <div class="row" style="gap:10px">
+   <div class="chip" style="flex:1;text-align:center">18/20 &middot; problem difficulty</div>
+   <div class="chip" style="flex:1;text-align:center">9/20 &middot; unprompted ID</div>
+   <div class="chip" style="flex:1;text-align:center">14/20 &middot; pilot interest</div>
+   <div class="chip" style="flex:1;text-align:center">4/20 &middot; concrete next step</div>
+  </div>
+ </div>
+ <div class="foot"><div class="rule"></div><div class="take">The problem, the buyer and the budget <span class="c2">are all real.</span></div></div>
+</div>
+
+<!-- 9 TRACTION -->
+<div class="slide"><div class="bg"></div>
+ <div class="eyebrow"><span class="dot"></span>08 &middot; Traction and pipeline</div>
+ <h1 class="sm">One cohort. <span class="c3">Five diagnostics, two LOIs, $210K.</span></h1>
+ <div class="body" style="gap:10px">
+  <div class="row">
+   <div class="card" style="flex:1.45;padding:13px 16px">
+    <div class="lab" style="margin-bottom:9px"><span class="pip" style="background:#22d3ee"></span>The same five retailers, start to finish</div>
+    <div style="margin-bottom:6px"><div class="fil" style="width:100%;height:28px;background:#22d3ee;border-radius:5px;display:flex;align-items:center;padding-left:11px"><span style="color:#04121a;font-weight:700;font-size:16px">5 diagnostics delivered</span></div></div>
+    <div style="margin-bottom:6px"><div class="fil" style="width:80%;height:28px;background:#4ade80;border-radius:5px;display:flex;align-items:center;padding-left:11px"><span style="color:#04140a;font-weight:700;font-size:16px">4 advanced to contracting</span></div></div>
+    <div><div class="fil" style="width:40%;height:28px;background:#fbbf24;border-radius:5px;display:flex;align-items:center;padding-left:11px"><span style="color:#1a1204;font-weight:700;font-size:16px">2 LOIs &middot; $210K</span></div></div>
+    <p class="note" style="margin-top:7px">The four are a subset of the five; one did not advance. <b style="color:#fff">40% diagnostic&#8209;to&#8209;LOI.</b></p>
+   </div>
+   <div style="flex:1;display:flex;flex-direction:column;gap:10px">
+    <div class="card" style="padding:12px 15px;border-color:rgba(244,114,182,.5);background:rgba(244,114,182,.08)">
+     <div class="lab" style="margin-bottom:5px"><span class="pip" style="background:#f472b6"></span>Revenue status</div>
+     <div class="mid c4">$0 ARR</div>
+     <p style="margin-top:5px">Pre&#8209;revenue. First revenue targeted <b>Q1 2027</b>.</p></div>
+    <div class="card" style="padding:12px 15px"><div class="lab" style="margin-bottom:5px"><span class="pip" style="background:#a855f7"></span>LOI composition</div>
+     <p>1&times; Snapshot <b>$60K</b> &middot; 1&times; Core <b>$150K</b>. In procurement; not yet in legal review.</p></div>
+   </div>
+  </div>
+  <div class="row">
+   <div class="card" style="flex:1;padding:12px 16px">
+    <div class="lab" style="margin-bottom:8px"><span class="pip" style="background:#fbbf24"></span>Identified &mdash; modeled, not yet realized</div>
+    <div class="row" style="gap:14px"><p style="flex:1"><b class="c3">$390K</b><br><span class="note">opportunity, wk 2 &middot; Retailer A</span></p>
+     <p style="flex:1"><b class="c3">$117K</b><br><span class="note">annualized, one SKU group &middot; Retailer D</span></p></div></div>
+   <div class="card" style="flex:1;padding:12px 16px;border-color:rgba(74,222,128,.4)">
+    <div class="lab" style="margin-bottom:8px"><span class="pip" style="background:#4ade80"></span>Measured in production &mdash; after fixes shipped</div>
+    <div class="row" style="gap:14px"><p style="flex:1"><b class="c2">60%</b><br><span class="note">of fixes adopted, d30 &middot; Retailer B</span></p>
+     <p style="flex:1"><b class="c2">1.2 pt</b><br><span class="note">rate reduction, d60 &middot; Retailer C</span></p></div>
+    </div>
+  </div>
+  
+ </div>
+ <div class="foot"><div class="rule"></div><div class="take">We proved the method before charging for it. <span class="c3">Now we charge.</span></div></div>
+</div>
+
+<!-- 10 NEXT 90 DAYS -->
+<div class="slide"><div class="bg"></div>
+ <div class="eyebrow"><span class="dot"></span>09 &middot; Next 90 days</div>
+ <h1>From validation to <span class="c2">first recognized revenue</span>.</h1>
+ <div class="body">
+  <div class="row">
+   <div class="card" style="flex:1;padding:13px 15px"><div class="num">Days 1&ndash;30</div>
+    <div class="ttl c1">Advance</div><p>Both LOIs through procurement and security review.</p>
+    <p class="note" style="margin-top:7px">Target: 2 opportunities in legal.</p></div>
+   <div class="arrow">&rarr;</div>
+   <div class="card" style="flex:1;padding:13px 15px"><div class="num">Days 31&ndash;60</div>
+    <div class="ttl c2">Sign</div><p>Convert advanced opportunities to executed agreements.</p>
+    <p class="note" style="margin-top:7px">Target: 1&ndash;2 signed contracts.</p></div>
+   <div class="arrow">&rarr;</div>
+   <div class="card" style="flex:1;padding:13px 15px;border-color:rgba(251,191,36,.45)"><div class="num">Days 61&ndash;90</div>
+    <div class="ttl c3">Launch</div><p>Stand up engagements. Recognize first recurring revenue.</p>
+    <p class="note" style="margin-top:7px">Target: ARR &gt; $0.</p></div>
+  </div>
+  <div class="card" style="padding:13px 16px;border-color:rgba(168,85,247,.4)">
+   <div class="lab" style="margin-bottom:9px"><span class="pip" style="background:#a855f7"></span>If Q1 budget cycles slip &mdash; three bridges, none requiring new capital</div>
+   <div class="row" style="gap:14px">
+    <p style="flex:1"><b>Paid diagnostic</b><br><span class="note">$25K single&#8209;run offer takes a stalled LOI outside the annual cycle.</span></p>
+    <p style="flex:1"><b>Delay the CS hire</b><br><span class="note">Month 7 &rarr; Month 10 extends runway to month 22 (slide 18).</span></p>
+    <p style="flex:1"><b>Widen the cohort</b><br><span class="note">Diagnostics cost us little to run &mdash; more at&#8209;bats, same burn.</span></p>
+   </div>
+  </div>
+  <div class="card" style="padding:9px 16px"><p class="note">These are <b style="color:#fff">targets, not achievements</b>. Already done: five diagnostics, four contracting conversations, two signed LOIs.</p></div>
+ </div>
+ <div class="foot"><div class="rule"></div><div class="take">A slipped quarter costs time. <span class="c2">It does not cost the plan.</span></div></div>
+</div>
+
+<!-- 11 BUSINESS MODEL -->
+<div class="slide"><div class="bg"></div>
+ <div class="eyebrow"><span class="dot"></span>10 &middot; Business model and CAC</div>
+ <h1>Annual SaaS. <span class="c3">$78K to win a $160K account.</span></h1>
+ <div class="body" style="gap:10px">
+  <div class="row">
+   <div class="card" style="flex:1;padding:13px 16px">
+    <div class="lab" style="margin-bottom:9px"><span class="pip" style="background:#a855f7"></span>Tiers &middot; pipeline mix</div>
+    <div style="display:flex;align-items:flex-end;gap:13px;height:108px">
+     <div style="text-align:center;flex:1"><div style="height:16px;background:#22d3ee;border-radius:4px"></div><p style="margin-top:6px"><b>$60K</b></p><p class="note">Snapshot</p></div>
+     <div style="text-align:center;flex:1"><div style="height:34px;background:#4ade80;border-radius:4px"></div><p style="margin-top:6px"><b>$150K</b></p><p class="note">Core</p></div>
+     <div style="text-align:center;flex:1"><div style="height:56px;background:#a855f7;border-radius:4px"></div><p style="margin-top:6px"><b>$280K</b></p><p class="note">Enterprise</p></div>
+    </div>
+    <p class="note" style="margin-top:8px">25/50/25 mix &rarr; <b style="color:#fff">$160K blended ACV</b>.</p>
+   </div>
+   <div class="card" style="flex:1.1;padding:13px 16px">
+    <div class="lab" style="margin-bottom:9px"><span class="pip" style="background:#fbbf24"></span>CAC includes unpaid diagnostics</div>
+    <div style="display:flex;align-items:center;gap:11px;margin-bottom:7px"><p style="width:184px;flex:none">Diagnostic delivery<br><span class="note">2 runs @ $18K, 50% convert</span></p>
+     <div class="trk" style="flex:1;height:14px"><div class="fil" style="width:46%;background:#f472b6"></div></div><p style="width:50px;flex:none;text-align:right"><b>$36K</b></p></div>
+    <div style="display:flex;align-items:center;gap:11px;margin-bottom:7px"><p style="width:184px;flex:none">Sales and marketing</p>
+     <div class="trk" style="flex:1;height:14px"><div class="fil" style="width:54%;background:#a855f7"></div></div><p style="width:50px;flex:none;text-align:right"><b>$42K</b></p></div>
+    <div style="display:flex;align-items:center;gap:11px;padding-top:7px;border-top:1px solid rgba(255,255,255,.12)">
+     <p style="width:184px;flex:none"><b>Blended CAC</b></p><div style="flex:1"></div><p style="width:50px;flex:none;text-align:right"><b class="c3">$78K</b></p></div>
+    <p class="note" style="margin-top:8px">At 40% conversion the free runs cost $45K &rarr; <b style="color:#fff">$87K CAC, 7.4&times; LTV:CAC</b>.</p>
+   </div>
+  </div>
+  <div class="card" style="padding:11px 16px">
+   <div class="lab" style="margin-bottom:8px"><span class="pip" style="background:#4ade80"></span>Retention assumptions behind the $640K LTV &mdash; all modeled, no renewal data yet</div>
+   <div class="row" style="gap:13px">
+    <p style="flex:1"><b class="c2">85%</b><br><span class="note">Gross annual retention</span></p>
+    <p style="flex:1"><b class="c2">110%</b><br><span class="note">NRR via tier expansion</span></p>
+    <p style="flex:1"><b>5 yr</b><br><span class="note">Modeled life</span></p>
+    <p style="flex:1"><b>6.7 yr</b><br><span class="note">Implied by 85% GRR</span></p>
+    <p style="flex:1.6"><span class="note">We model the <b style="color:#fff">shorter</b> life deliberately. At the implied 6.7 years, LTV:CAC is 11&times;, not 8.2&times;.</span></p>
+   </div>
+  </div>
+ </div>
+ <div class="foot"><div class="rule"></div><div class="take">The free diagnostic is <span class="c3">priced into CAC, not hidden from it.</span></div></div>
+</div>
+
+<!-- 12 MARKET SAM -->
+<div class="slide"><div class="bg"></div>
+ <div class="eyebrow"><span class="dot"></span>11 &middot; Market &mdash; serviceable</div>
+ <h1>$800M serviceable. <span class="c2">Two methods, same answer.</span></h1>
+ <div class="body">
+  <div class="row">
+   <div class="card" style="flex:1;padding:14px 17px">
+    <div class="lab" style="margin-bottom:10px"><span class="pip" style="background:#f472b6"></span>Bottom&#8209;up</div>
+    <p><b>3,200</b> NA + EU apparel brands at $75&ndash;500M revenue</p>
+    <p style="margin-top:7px">&times; <b>$250K</b> addressable analytics spend</p>
+    <div style="height:2px;background:rgba(255,255,255,.12);margin:12px 0"></div>
+    <div class="big c4">$800M</div></div>
+   <div class="card" style="flex:1;padding:14px 17px">
+    <div class="lab" style="margin-bottom:10px"><span class="pip" style="background:#22d3ee"></span>Top&#8209;down cross&#8209;check</div>
+    <p><b>$10.2B</b> global retail analytics, 2025</p>
+    <p style="margin-top:7px">&times; <b>38%</b> North America &nbsp;&times; <b>~20%</b> apparel</p>
+    <div style="height:2px;background:rgba(255,255,255,.12);margin:12px 0"></div>
+    <div class="big c1">$776M</div></div>
+  </div>
+  <div class="card" style="padding:13px 17px;border-color:rgba(251,191,36,.35)">
+   <div class="lab" style="margin-bottom:9px"><span class="pip" style="background:#fbbf24"></span>Where the $250K comes from</div>
+   <div class="row" style="gap:11px;align-items:center">
+    <p style="flex:1"><b>$150M</b><br><span class="note">Median target revenue</span></p>
+    <p class="arrow" style="flex:none">&times;</p>
+    <p style="flex:1"><b>3.5%</b><br><span class="note">IT spend &mdash; floor of the fashion band</span></p>
+    <p class="arrow" style="flex:none">&times;</p>
+    <p style="flex:1"><b>5%</b><br><span class="note">Analytics share of IT</span></p>
+    <p class="arrow" style="flex:none">=</p>
+    <p style="flex:1"><b class="c3">$263K</b><br><span class="note">We model $250K</span></p>
+   </div>
+   <p class="note" style="margin-top:8px">Retail IT runs 1.5&ndash;5.0% of revenue; fashion and specialty trend 3.5&ndash;5.0% &mdash; we use the floor. Market size: Fortune Business Insights, 2025.</p>
+  </div>
+ </div>
+ <div class="foot"><div class="rule"></div><div class="take">Every input is a number <span class="c2">an investor can check.</span></div></div>
+</div>
+
+<!-- 13 MARKET SOM -->
+<div class="slide"><div class="bg"></div>
+ <div class="eyebrow"><span class="dot"></span>12 &middot; Market &mdash; obtainable</div>
+ <h1>$14.4M by year five &mdash; <span class="c2">set by capacity, not share</span>.</h1>
+ <div class="body">
+  <div class="card" style="padding:14px 17px">
+   <div class="lab" style="margin-bottom:11px"><span class="pip" style="background:#4ade80"></span>Bottom&#8209;up capacity model</div>
+   <div class="row" style="gap:10px;align-items:center">
+    <div style="flex:1;text-align:center"><div class="mid c1">3</div><p class="note" style="margin-top:6px">Sales reps by Yr 5</p></div>
+    <p class="arrow" style="flex:none">&times;</p>
+    <div style="flex:1;text-align:center"><div class="mid c1">30</div><p class="note" style="margin-top:6px">Diagnostics / rep / yr</p></div>
+    <p class="arrow" style="flex:none">&times;</p>
+    <div style="flex:1;text-align:center"><div class="mid c3">50%</div><p class="note" style="margin-top:6px">Conversion</p></div>
+    <p class="arrow" style="flex:none">=</p>
+    <div style="flex:1;text-align:center"><div class="mid c2">45</div><p class="note" style="margin-top:6px">New logos in Yr 5</p></div>
+    <p class="arrow" style="flex:none">&rarr;</p>
+    <div style="flex:1.2;text-align:center"><div class="mid c5">90</div><p class="note" style="margin-top:6px">Active accounts after churn</p></div>
+   </div>
+  </div>
+  <div class="row">
+   <div class="card" style="flex:1;padding:13px 16px"><div class="lab" style="margin-bottom:6px"><span class="pip" style="background:#a855f7"></span>Year 5 ARR</div>
+    <div class="mid c5">$14.4M</div><p class="note" style="margin-top:6px">90 accounts &times; $160K blended ACV.</p></div>
+   <div class="card" style="flex:1;padding:13px 16px"><div class="lab" style="margin-bottom:6px"><span class="pip" style="background:#fbbf24"></span>Penetration</div>
+    <div class="mid c3">2.8%</div><p class="note" style="margin-top:6px">Of 3,200 qualified brands.</p></div>
+   <div class="card" style="flex:1.7;padding:13px 16px;border-color:rgba(34,211,238,.4)">
+    <div class="lab" style="margin-bottom:6px"><span class="pip" style="background:#22d3ee"></span>What we did not do</div>
+    <p><b>No percentage of $849.9B appears in this model.</b> The 2.8% is an output of how many accounts three reps can actually work &mdash; not an assumed share.</p></div>
+  </div>
+ </div>
+ <div class="foot"><div class="rule"></div><div class="take">Capacity we can staff. <span class="c2">Not share we hope to take.</span></div></div>
+</div>
+<!-- 14 COMPETITIVE -->
+<div class="slide"><div class="bg"></div>
+ <div class="eyebrow"><span class="dot"></span>13 &middot; Competitive landscape</div>
+ <h1 class="sm">Five layers. <span class="c5">One is unoccupied.</span></h1>
+ <div class="body" style="gap:9px">
+  <div class="row" style="gap:8px">
+   <div style="flex:1;padding:7px 10px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.03)"><p class="note">L1 &middot; Execution</p></div>
+   <div style="flex:1;padding:7px 10px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.03)"><p class="note">L2 &middot; Reverse logistics</p></div>
+   <div style="flex:1;padding:7px 10px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.03)"><p class="note">L3 &middot; Analytics</p></div>
+   <div style="flex:1;padding:7px 10px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.03)"><p class="note">L4 &middot; Fit prevention</p></div>
+   <div style="flex:1.3;padding:7px 10px;border-radius:10px;border:1px solid rgba(168,85,247,.65);background:rgba(168,85,247,.18)"><p style="font-size:15px"><b>L5 &middot; Decision intelligence</b></p></div>
+  </div>
+  <div class="card" style="padding:12px 17px">
+   <div class="row" style="gap:0;padding-bottom:7px;border-bottom:1px solid rgba(255,255,255,.1)">
+    <p class="note" style="flex:1.5">&#9679; full &middot; &#9685; partial &middot; &#9711; none</p><p class="note" style="flex:1;text-align:center">Root cause</p><p class="note" style="flex:1;text-align:center">Priced fix</p><p class="note" style="flex:1;text-align:center">Measured outcome</p><p class="note" style="flex:1;text-align:center">Closed loop</p></div>
+   <div class="row" style="gap:0;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.06);align-items:center"><p style="flex:1.5"><b>True Fit &middot; 3DLOOK</b></p><p style="flex:1;text-align:center"><span style="display:inline-block;width:17px;height:17px;border-radius:50%;border:2px solid #7f7f9c"></span></p><p style="flex:1;text-align:center"><span style="display:inline-block;width:17px;height:17px;border-radius:50%;border:2px solid #7f7f9c"></span></p><p style="flex:1;text-align:center"><span style="display:inline-block;width:17px;height:17px;border-radius:50%;border:2px solid #7f7f9c"></span></p><p style="flex:1;text-align:center"><span style="display:inline-block;width:17px;height:17px;border-radius:50%;border:2px solid #7f7f9c"></span></p></div><div class="row" style="gap:0;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.06);align-items:center"><p style="flex:1.5"><b>Narvar &middot; Loop</b></p><p style="flex:1;text-align:center"><span style="display:inline-block;width:17px;height:17px;border-radius:50%;border:2px solid #7f7f9c"></span></p><p style="flex:1;text-align:center"><span style="display:inline-block;width:17px;height:17px;border-radius:50%;border:2px solid #7f7f9c"></span></p><p style="flex:1;text-align:center"><span style="display:inline-block;width:17px;height:17px;border-radius:50%;border:2px solid #7f7f9c"></span></p><p style="flex:1;text-align:center"><span style="display:inline-block;width:17px;height:17px;border-radius:50%;border:2px solid #7f7f9c"></span></p></div><div class="row" style="gap:0;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.06);align-items:center"><p style="flex:1.5"><b>Returnalyze &middot; Newmine</b></p><p style="flex:1;text-align:center"><span style="display:inline-block;width:17px;height:17px;border-radius:50%;border:2px solid #7f7f9c;background:linear-gradient(90deg,#7f7f9c 50%,transparent 50%)"></span></p><p style="flex:1;text-align:center"><span style="display:inline-block;width:17px;height:17px;border-radius:50%;border:2px solid #7f7f9c;background:linear-gradient(90deg,#7f7f9c 25%,transparent 25%)"></span></p><p style="flex:1;text-align:center"><span style="display:inline-block;width:17px;height:17px;border-radius:50%;border:2px solid #7f7f9c"></span></p><p style="flex:1;text-align:center"><span style="display:inline-block;width:17px;height:17px;border-radius:50%;border:2px solid #7f7f9c"></span></p></div><div class="row" style="gap:0;padding:6px 0;align-items:center"><p style="flex:1.5"><b class="c5">Sartori</b></p><p style="flex:1;text-align:center"><span style="display:inline-block;width:17px;height:17px;border-radius:50%;background:#a855f7"></span></p><p style="flex:1;text-align:center"><span style="display:inline-block;width:17px;height:17px;border-radius:50%;background:#a855f7"></span></p><p style="flex:1;text-align:center"><span style="display:inline-block;width:17px;height:17px;border-radius:50%;background:#a855f7"></span></p><p style="flex:1;text-align:center"><span style="display:inline-block;width:17px;height:17px;border-radius:50%;background:#a855f7"></span></p></div>
+  </div>
+  <div class="card" style="padding:12px 17px;border-color:rgba(168,85,247,.35)">
+   <p><b class="c5">If a competitor ships outcome tracking tomorrow:</b> the feature is copyable, the data is not. An outcome graph needs retailers who let you ship a fix and re&#8209;measure it &mdash; <b>12&ndash;18 months</b> before the first row exists. Our clock started with five.</p>
+  </div>
+ </div>
+ <div class="foot"><div class="rule"></div><div class="take">They report what came back. <span class="c5">We price the fix and prove it worked.</span></div></div>
+</div>
+
+<!-- 15 GTM -->
+<div class="slide"><div class="bg"></div>
+ <div class="eyebrow"><span class="dot"></span>14 &middot; Go to market</div>
+ <h1><span class="c1">90 days</span> from first conversation to signed contract.</h1>
+ <div class="body" style="gap:9px">
+  <div class="row" style="gap:8px">
+   <div class="card" style="flex:1;padding:10px 12px"><div class="num">Week 0</div><p><b>Intro call</b><br>VP E&#8209;commerce</p></div>
+   <div class="card" style="flex:1;padding:10px 12px"><div class="num">Week 2</div><p><b>NDA + CSV</b><br>Data share</p></div>
+   <div class="card" style="flex:1;padding:10px 12px"><div class="num">Week 5</div><p><b>Snapshot</b><br>Delivered</p></div>
+   <div class="card" style="flex:1;padding:10px 12px"><div class="num">Week 8</div><p><b>Exec readout</b><br>CFO joins</p></div>
+   <div class="card" style="flex:1;padding:10px 12px;border-color:rgba(34,211,238,.5)"><div class="num">Week 12</div><p><b class="c1">Contract</b><br>Signed</p></div>
+  </div>
+  <div class="row">
+   <div class="card" style="flex:1.15;padding:13px 16px">
+    <div class="lab" style="margin-bottom:9px"><span class="pip" style="background:#fbbf24"></span>Funnel, per 100 targeted accounts</div>
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px"><p style="width:118px;flex:none" class="note">Outreach</p><div class="trk" style="flex:1;height:14px"><div class="fil" style="width:100%;background:#22d3ee"></div></div><p style="width:38px;flex:none;text-align:right"><b>100</b></p></div>
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px"><p style="width:118px;flex:none" class="note">Replies (26%)</p><div class="trk" style="flex:1;height:14px"><div class="fil" style="width:26%;background:#4ade80"></div></div><p style="width:38px;flex:none;text-align:right"><b>26</b></p></div>
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px"><p style="width:118px;flex:none" class="note">Diagnostics</p><div class="trk" style="flex:1;height:14px"><div class="fil" style="width:10%;background:#fbbf24"></div></div><p style="width:38px;flex:none;text-align:right"><b>10</b></p></div>
+    <div style="display:flex;align-items:center;gap:10px"><p style="width:118px;flex:none" class="note">Closed (50%)</p><div class="trk" style="flex:1;height:14px"><div class="fil" style="width:5%;background:#f472b6"></div></div><p style="width:38px;flex:none;text-align:right"><b>5</b></p></div>
+   </div>
+   <div style="flex:1;display:flex;flex-direction:column;gap:9px">
+    <div class="card" style="padding:11px 15px"><div class="lab" style="margin-bottom:5px"><span class="pip" style="background:#a855f7"></span>Who signs</div>
+     <p>VP / Dir. of E&#8209;commerce or Retail Ops. CFO co&#8209;signs above $150K.</p></div>
+    <div class="card" style="padding:11px 15px"><div class="lab" style="margin-bottom:5px"><span class="pip" style="background:#4ade80"></span>Channels, stated plainly</div>
+     <p><b>Booked:</b> NRF, Shoptalk. <b>Running:</b> 26% reply outreach. <b>Informal:</b> 3PL intros &mdash; no signed agreements; formalizing two by Month 6.</p></div>
+   </div>
+  </div>
+  <div class="card" style="padding:9px 16px"><p class="note"><b style="color:#fff">Conversion today: 40%</b> (2 LOIs from 5), founder&#8209;led. Model assumes <b style="color:#fff">50%</b> with a Head of Sales. Both cases on slide 18.</p></div>
+ </div>
+ <div class="foot"><div class="rule"></div><div class="take">Free diagnostic in. <span class="c1">Half convert to an annual contract.</span></div></div>
+</div>
+
+<!-- 16 TEAM -->
+<div class="slide"><div class="bg"></div>
+ <div class="eyebrow"><span class="dot"></span>15 &middot; Team</div>
+ <h1 class="sm">Enterprise AI, built inside <span class="c1">the retailers we sell to</span>.</h1>
+ <div class="body" style="gap:9px">
+  <div class="card" style="padding:12px 17px">
+   <div class="row" style="gap:0;padding-bottom:7px;border-bottom:1px solid rgba(255,255,255,.1)">
+    <p class="note" style="flex:1.35">Name</p><p class="note" style="flex:1.1">Role</p><p class="note" style="flex:1.5">Prior</p><p class="note" style="flex:1.6">Evidence</p></div>
+   <div class="row" style="gap:0;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.06)">
+    <p style="flex:1.35"><b class="c5">R. Michael Merritt</b></p><p style="flex:1.1">Founder &amp; CEO</p>
+    <p style="flex:1.5">IBM Watson (7 yrs), Google Vertex AI, Disney, Macy&rsquo;s</p>
+    <p style="flex:1.6">Two granted U.S. patents &middot; MBA, Illinois</p></div>
+   <div class="row" style="gap:0;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.06)">
+    <p style="flex:1.35"><b class="c2">Jacqueline Campbell, MBA</b></p><p style="flex:1.1">Growth &amp; Marketing</p>
+    <p style="flex:1.5">AWS, Microsoft, Ericsson / Cradlepoint, Rubrik, L&rsquo;Or&eacute;al</p>
+    <p style="flex:1.6"><b>145%</b> of revenue target &middot; <b>$12.5M</b> pipeline influenced</p></div>
+   <div class="row" style="gap:0;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.06)">
+    <p style="flex:1.35"><b class="c1">Henry Fadoni</b></p><p style="flex:1.1">B2B Sales &amp; BD</p>
+    <p style="flex:1.5">Founder, FadoniTech &middot; AI sales&#8209;training SaaS</p>
+    <p style="flex:1.6">Technical product depth plus commercial execution</p></div>
+   <div class="row" style="gap:0;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.06)">
+    <p style="flex:1.35"><b>Neil Fox</b></p><p style="flex:1.1">Sales &amp; Partnerships</p>
+    <p style="flex:1.5">Business development consulting</p>
+    <p style="flex:1.6">Enterprise engagement and partnership development</p></div>
+   <div class="row" style="gap:0;padding:6px 0 0">
+    <p style="flex:1.35"><b>Justin Chan</b></p><p style="flex:1.1">Technical Lead</p>
+    <p style="flex:1.5">AI platform engineering</p>
+    <p style="flex:1.6">Leads product build and customer implementation</p></div>
+   <p class="note" style="margin-top:9px;padding-top:9px;border-top:1px solid rgba(255,255,255,.1)">Jacqueline, Henry and Neil are <b style="color:#fff">independent consultants, not full&#8209;time employees</b>.</p>
+  </div>
+  
+ </div>
+ <div class="foot"><div class="rule"></div><div class="take">Not a solo founder. <span class="c1">A commercialization bench.</span></div></div>
+</div>
+
+<!-- 17 ADVISORS + HIRING -->
+<div class="slide"><div class="bg"></div>
+ <div class="eyebrow"><span class="dot"></span>16 &middot; Advisors and hiring</div>
+ <h1>Venture building and applied AI, <span class="c3">on call</span>.</h1>
+ <div class="body" style="gap:10px">
+  <div class="row">
+   <div class="card" style="flex:1;padding:13px 16px"><div class="lab" style="margin-bottom:7px"><span class="pip" style="background:#a855f7"></span>Venture development</div>
+    <div class="ttl">Greg Pugh</div>
+    <p>Advisory Partner, <b>Rev1 Ventures</b> &mdash; software and advanced technologies.</p>
+    <p style="margin-top:6px">Founding teams at <b>five</b> startups, including <b>two exits</b>.</p><p class="note" style="margin-top:6px">Advisory only &mdash; Rev1 has not invested in or endorsed Sartori.</p></div>
+   <div class="card" style="flex:1;padding:13px 16px"><div class="lab" style="margin-bottom:7px"><span class="pip" style="background:#22d3ee"></span>Applied AI</div>
+    <div class="ttl">Dr. Alvin Chin</div>
+    <p>Clinical Assistant Professor and Director of Undergraduate Studies, <b>University of Illinois Chicago</b>.</p>
+    <p style="margin-top:6px">Former AI researcher at <b>BMW</b> &middot; Principal Data Scientist, <b>RXO / XPO</b> &middot; research at <b>Microsoft</b> and <b>Nokia</b>.</p></div>
+  </div>
+  <div class="card" style="padding:11px 16px;border-color:rgba(244,114,182,.35)">
+   <div class="lab" style="margin-bottom:7px"><span class="pip" style="background:#f472b6"></span>Who has carried an enterprise quota &mdash; answered straight</div>
+   <p>Nobody here has carried an enterprise SaaS quota. The <b>40% conversion and $210K in LOIs are founder&#8209;led</b> &mdash; <b class="c4">which is exactly what the Month 3 Head of Sales hire is for</b>.</p>
+  </div>
+  <div style="display:flex;align-items:center;gap:0">
+   <div style="flex:2;height:30px;background:#22d3ee;border-radius:6px 0 0 6px;display:flex;align-items:center;padding-left:12px"><span style="color:#04121a;font-weight:700;font-size:15px">Senior ML Engineer &middot; M2</span></div>
+   <div style="flex:3;height:30px;background:#4ade80;display:flex;align-items:center;padding-left:12px"><span style="color:#04140a;font-weight:700;font-size:15px">Head of Enterprise Sales &middot; M3</span></div>
+   <div style="flex:4;height:30px;background:#fbbf24;border-radius:0 6px 6px 0;display:flex;align-items:center;padding-left:12px"><span style="color:#1a1204;font-weight:700;font-size:15px">Solutions &amp; CS Lead &middot; M7</span></div>
+  </div>
+ </div>
+ <div class="foot"><div class="rule"></div><div class="take">The bench is real. <span class="c3">The quota hire is the gap we are funding.</span></div></div>
+</div>
+
+<!-- 18 FINANCIALS -->
+<div class="slide"><div class="bg"></div>
+ <div class="eyebrow"><span class="dot"></span>17 &middot; Financial plan and downside</div>
+ <h1>$1M buys 18 months and <span class="c2">$1.3M ARR</span>.</h1>
+ <div class="body">
+  <div class="row">
+   <div class="card" style="flex:1.1;padding:14px 16px">
+    <div class="lab" style="margin-bottom:10px"><span class="pip" style="background:#4ade80"></span>ARR ramp &middot; base case</div>
+    <div style="display:flex;align-items:flex-end;gap:16px;height:92px">
+     <div style="flex:1;text-align:center"><p style="margin-bottom:5px"><b class="cg">$0</b></p><div style="height:4px;background:#5b5b78;border-radius:3px"></div><p class="note" style="margin-top:5px">Today</p></div>
+     <div style="flex:1;text-align:center"><p style="margin-bottom:5px"><b>$150K</b></p><div style="height:11px;background:#22d3ee;border-radius:3px"></div><p class="note" style="margin-top:5px">M6 &middot; 1</p></div>
+     <div style="flex:1;text-align:center"><p style="margin-bottom:5px"><b>$600K</b></p><div style="height:31px;background:#4ade80;border-radius:3px"></div><p class="note" style="margin-top:5px">M12 &middot; 4</p></div>
+     <div style="flex:1;text-align:center"><p style="margin-bottom:5px"><b class="c2">$1.28M</b></p><div style="height:64px;background:#a855f7;border-radius:3px"></div><p class="note" style="margin-top:5px">M18 &middot; 8</p></div>
+    </div>
+    <p class="note" style="margin-top:9px">Net burn ramps $40K &rarr; $55K &rarr; $68K per month with hiring.</p>
+   </div>
+   <div class="card" style="flex:1;padding:14px 16px">
+    <div class="lab" style="margin-bottom:9px"><span class="pip" style="background:#fbbf24"></span>Sensitivity &middot; diagnostic conversion</div>
+    <div class="row" style="gap:0;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,.1)">
+     <p class="note" style="flex:1">Case</p><p class="note" style="flex:1">ARR</p><p class="note" style="flex:1.1">Milestone</p></div>
+    <div class="row" style="gap:0;padding:7px 0;border-bottom:1px solid rgba(255,255,255,.06)">
+     <p style="flex:1">40% <span class="note">(today)</span></p><p style="flex:1"><b>$1.0M</b></p><p style="flex:1.1">Month 20</p></div>
+    <div class="row" style="gap:0;padding:7px 0;border-bottom:1px solid rgba(255,255,255,.06)">
+     <p style="flex:1" class="c2">50% <span class="note">(base)</span></p><p style="flex:1"><b class="c2">$1.28M</b></p><p style="flex:1.1">Month 18</p></div>
+    <div class="row" style="gap:0;padding:7px 0">
+     <p style="flex:1">60%</p><p style="flex:1"><b>$1.5M</b></p><p style="flex:1.1">Month 16</p></div>
+    <p class="note" style="margin-top:8px">At 40%, runway extends to month 22 by delaying the CS hire. <b style="color:#fff">The round still reaches seed metrics.</b></p>
+   </div>
+  </div>
+  <div class="card" style="padding:11px 17px">
+   <div class="row" style="gap:14px">
+    <p style="flex:1.4"><b>$54K</b> average net burn &middot; <b>18 months</b> on cash &middot; <b>22 months</b> with collections</p>
+    <p style="flex:1"><b>Bootstrapped.</b> $0 raised to date.</p>
+   </div></div>
+ </div>
+ <div class="foot"><div class="rule"></div><div class="take">Pre&#8209;revenue today. <span class="c2">Seed&#8209;ready in eighteen months.</span></div></div>
+</div>
+
+<!-- 19 ASK -->
+<div class="slide"><div class="bg"></div>
+ <div class="eyebrow"><span class="dot"></span>18 &middot; The ask</div>
+ <h1>Raising <span class="c5">$1M pre&#8209;seed</span>.</h1>
+ <div class="body">
+  <div class="card" style="padding:14px 16px">
+   <div class="lab" style="margin-bottom:11px"><span class="pip" style="background:#a855f7"></span>Use of funds</div>
+   <div style="display:flex;align-items:center;gap:0;margin-bottom:12px">
+    <div style="flex:50;height:30px;background:#a855f7;border-radius:5px 0 0 5px;display:flex;align-items:center;padding-left:12px"><span style="color:#0d0418;font-weight:700;font-size:16px">Product 50% &middot; $500K</span></div>
+    <div style="flex:35;height:30px;background:#22d3ee;display:flex;align-items:center;padding-left:12px"><span style="color:#04121a;font-weight:700;font-size:16px">GTM 35% &middot; $350K</span></div>
+    <div style="flex:15;height:30px;background:#4ade80;border-radius:0 5px 5px 0;display:flex;align-items:center;padding-left:12px"><span style="color:#04140a;font-weight:700;font-size:16px">Infra 15%</span></div>
+   </div>
+   <div class="row">
+    <p style="flex:1">ML engineer M2<br>Cause&#8209;detection v2 M6<br>Self&#8209;serve Snapshot M12</p>
+    <p style="flex:1">Head of Sales M3<br>NRF Big Show M6<br>4 pilots converted M9</p>
+    <p style="flex:1">Pipeline scale M4<br>SOC 2 Type I M8<br>Security &amp; compliance</p>
+   </div>
+  </div>
+  <div class="row">
+   <div class="card" style="flex:1;padding:12px 16px;text-align:center"><div class="mid c2">8</div><p class="note" style="margin-top:5px">Paying customers</p></div>
+   <div class="card" style="flex:1;padding:12px 16px;text-align:center"><div class="mid c1">$1.3M</div><p class="note" style="margin-top:5px">ARR at month 18</p></div>
+   <div class="card" style="flex:1;padding:12px 16px;text-align:center"><div class="mid c3">$3&ndash;4M</div><p class="note" style="margin-top:5px">Seed, 12&ndash;18 months</p></div>
+   <div class="card" style="flex:1.7;padding:12px 16px">
+    <p style="font-size:17px;color:#fff"><b>R. Michael Merritt</b></p>
+    <p style="margin-top:4px">r.michael@sartori.ai &middot; (415) 286&#8209;5286</p>
+    <p style="margin-top:3px">sartori.ai</p></div>
+  </div>
+ </div>
+ <div class="foot"><div class="rule"></div><div class="take">Two LOIs in hand. <span class="c5">The next dollar converts them.</span></div></div>
+</div>
+
+
+</div></div>
+<div id="nav">
+  <button class="nb" id="pv" aria-label="Previous slide">&#8592;</button>
+  <span id="cnt"></span>
+  <div id="dots"></div>
+  <button class="nb" id="nx" aria-label="Next slide">&#8594;</button>
+</div>
+<script>
+(function(){
+ var S=[].slice.call(document.querySelectorAll('.slide')),i=0,
+     deck=document.getElementById('deck'),stage=document.getElementById('stage'),
+     cnt=document.getElementById('cnt'),dots=document.getElementById('dots'),
+     pv=document.getElementById('pv'),nx=document.getElementById('nx');
+ S.forEach(function(_,k){var b=document.createElement('button');b.className='dt';
+   b.setAttribute('aria-label','Slide '+(k+1));b.onclick=function(){go(k)};dots.appendChild(b)});
+ var DT=[].slice.call(dots.children);
+ function fit(){
+   var w=stage.clientWidth-28,h=stage.clientHeight-24,
+       s=Math.min(w/960,h/540);
+   deck.style.transform='translate(-50%,-50%) scale('+s+')';
+ }
+ function go(k){
+   i=Math.max(0,Math.min(S.length-1,k));
+   S.forEach(function(el,n){el.classList.toggle('on',n===i)});
+   DT.forEach(function(d,n){d.classList.toggle('on',n===i)});
+   cnt.textContent=(i+1)+' / '+S.length;
+   pv.disabled=i===0; nx.disabled=i===S.length-1;
+   if(history.replaceState)history.replaceState(null,'','#'+(i+1));
+ }
+ pv.onclick=function(){go(i-1)}; nx.onclick=function(){go(i+1)};
+ document.addEventListener('keydown',function(e){
+   if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){e.preventDefault();go(i+1)}
+   if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();go(i-1)}
+   if(e.key==='Home')go(0); if(e.key==='End')go(S.length-1);
+ });
+ var x0=null;
+ stage.addEventListener('touchstart',function(e){x0=e.touches[0].clientX},{passive:true});
+ stage.addEventListener('touchend',function(e){
+   if(x0===null)return; var dx=e.changedTouches[0].clientX-x0;
+   if(Math.abs(dx)>46) go(dx<0?i+1:i-1); x0=null;},{passive:true});
+ stage.addEventListener('click',function(e){
+   if(e.target.closest('a'))return;
+   go(e.clientX < window.innerWidth/2 ? i-1 : i+1);
+ });
+ window.addEventListener('resize',fit);
+ var h=parseInt((location.hash||'').replace('#',''),10);
+ fit(); go(isNaN(h)?0:h-1);
+})();
+</script></body></html>
